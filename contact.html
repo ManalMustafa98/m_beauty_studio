@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact M Beauty Studio - Book an appointment or get in touch with Michelle in Cypress, TX.">
+    <title>Contact - M Beauty Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <div class="logo-section">
+                <img src="footages/Logo.jpeg" alt="M Beauty Studio Logo" class="logo">
+                <span class="brand-name">M Beauty Studio</span>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Designs</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title fade-in-up">📱 Let's Chat!</h1>
+            <p class="page-subtitle">💬 We'd Love to Hear From You! 💬</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper fade-in">
+                    <h2>✉️ Send us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name 👤</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address 📧</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone (Optional) 📞</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject 💭</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="booking">💅 Book an Appointment</option>
+                                <option value="inquiry">❓ Service Inquiry</option>
+                                <option value="gift-card">🎁 Gift Card</option>
+                                <option value="other">📝 Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message 💬</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">✉️ Send Message</button>
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info-wrapper fade-in">
+                    <h2>✨ Contact Information</h2>
+                    
+                    <div class="contact-card">
+                        <h3>📞 Phone</h3>
+                        <p><a href="tel:4087442647">408-744-2647</a></p>
+                        <p class="contact-subtitle">📱 Call or text for faster response!</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>📍 Location</h3>
+                        <p>The Guest House Salon Studio</p>
+                        <p>15103 Mason Rd D1 #306</p>
+                        <p>Cypress, TX 77433</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>⏰ Hours</h3>
+                        <p>📅 By Appointment Only</p>
+                        <p>Contact for availability</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <h3>📱 Follow Us</h3>
+                        <div class="social-links-large">
+                            <a href="https://www.instagram.com/nailsbymichlle.t/" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <span>📷 Instagram</span>
+                                <span>@nailsbymichlle.t</span>
+                            </a>
+                            <a href="https://www.threads.com/@nailsbymichlle.t" target="_blank" rel="noopener noreferrer" class="social-link">
+                                <span>💬 Threads</span>
+                                <span>@nailsbymichlle.t</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card gift-card-info">
+                        <h3>🎁 Gift Cards</h3>
+                        <p>🎉 Gift cards available for purchase. Perfect gift for nail lovers!</p>
+                        <p>📞 Contact us for gift card options.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title fade-in">🗺️ Find Us</h2>
+            <div class="map-container fade-in">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.234567890123!2d-95.65!3d29.75!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c4f8d8d8d8d9%3A0x1234567890abcdef!2s15103%20Mason%20Rd%20D1%20%23306%2C%20Cypress%2C%20TX%2077433!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title fade-in">❓ Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item fade-in-up">
+                    <h3>💭 Do I need an appointment?</h3>
+                    <p>Yes! We work by appointment only to ensure you receive our full attention and expertise.</p>
+                </div>
+                <div class="faq-item fade-in-up">
+                    <h3>🔄 What if I need to cancel?</h3>
+                    <p>We understand plans change. Please call as soon as possible if you need to reschedule.</p>
+                </div>
+                <div class="faq-item fade-in-up">
+                    <h3>How long do services take?</h3>
+                    <p>Most services take 45 minutes to 2 hours depending on complexity and design.</p>
+                </div>
+                <div class="faq-item fade-in-up">
+                    <h3>Can I bring a friend?</h3>
+                    <p>Absolutely! Bring your friends for a fun nail day. Contact us for availability.</p>
+                </div>
+                <div class="faq-item fade-in-up">
+                    <h3>Do you offer gift cards?</h3>
+                    <p>Yes! Gift cards are available in any amount. Great gift for nail lovers!</p>
+                </div>
+                <div class="faq-item fade-in-up">
+                    <h3>What should I prepare?</h3>
+                    <p>Come with clean hands/feet and have an idea of what design you'd like.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="fade-in">Ready to Book?</h2>
+            <p class="fade-in">Call Michelle today at 408-744-2647 or fill out the form above</p>
+            <a href="tel:4087442647" class="btn btn-primary fade-in">Call Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>M Beauty Studio</h4>
+                    <p>Professional nail art & beauty services</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Designs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📞 <a href="tel:4087442647">408-744-2647</a></p>
+                    <p>📍 Cypress, TX 77433</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/nailsbymichlle.t/" target="_blank" rel="noopener noreferrer" title="Instagram" aria-label="Visit us on Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.threads.com/@nailsbymichlle.t" target="_blank" rel="noopener noreferrer" title="Threads" aria-label="Visit us on Threads">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 M Beauty Studio. All rights reserved. | By Appointment Only</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

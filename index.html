@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="M Beauty Studio - Professional Nail Artist in Cypress, TX. Gel, Acrylic, and Nail Art services by appointment only.">
+    <meta name="theme-color" content="#f5e6d3">
+    <title>M Beauty Studio - Nail Artist | Cypress, TX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <div class="logo-section">
+                <img src="footages/Logo.jpeg" alt="M Beauty Studio Logo" class="logo">
+                <span class="brand-name">M Beauty Studio</span>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Designs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="footages/vid1 (3).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text fade-in-up">
+                <h1 class="hero-title">✨ M Beauty Studio ✨</h1>
+                <p class="hero-subtitle">Nail Art Excellence</p>
+                <p class="hero-description">Professional Designs • Premium Quality • By Appointment Only</p>
+                <a href="contact.html" class="btn btn-primary">💅 Book Your Appointment Now!</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Designs Section -->
+    <section class="featured-designs">
+        <div class="container">
+            <h2 class="section-title fade-in">✨ Featured Nail Designs ✨</h2>
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-track" id="carouselTrack">
+                        <div class="carousel-slide">
+                            <img src="footages/Design1.jpeg" alt="Nail Design 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="footages/design2.png" alt="Nail Design 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="footages/Design3.png" alt="Nail Design 3">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="footages/Design4.png" alt="Nail Design 4">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="footages/design5.png" alt="Nail Design 5">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn prev" id="prevBtn" aria-label="Previous slide">❮</button>
+                <button class="carousel-btn next" id="nextBtn" aria-label="Next slide">❯</button>
+                <div class="carousel-dots" id="carouselDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Videos Section -->
+    <section class="design-videos">
+        <div class="container">
+            <h2 class="section-title fade-in">🎥 Design Videos</h2>
+            <div class="design-videos-grid">
+                <article class="design-video-card fade-in-up">
+                    <video autoplay muted loop playsinline preload="metadata">
+                        <source src="footages/vid1 (1).mp4" type="video/mp4">
+                    </video>
+                    <div class="design-video-meta">
+                        <h3>Creative Set 01</h3>
+                        <p>Modern nail design in motion.</p>
+                    </div>
+                </article>
+                <article class="design-video-card fade-in-up">
+                    <video autoplay muted loop playsinline preload="metadata">
+                        <source src="footages/vid1 (2).mp4" type="video/mp4">
+                    </video>
+                    <div class="design-video-meta">
+                        <h3>Creative Set 02</h3>
+                        <p>Fresh style inspiration and detail work.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview Section -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title fade-in">💅 Our Services 💅</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">✨</div>
+                    <h3>Gel Nails</h3>
+                    <p>Long-lasting gel manicures with vibrant colors and finishes</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">💅</div>
+                    <h3>Acrylic Nails</h3>
+                    <p>Custom acrylic designs with professional application</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">🎨</div>
+                    <h3>Nail Art</h3>
+                    <p>Custom designs, patterns, and artistic creations</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon">🌸</div>
+                    <h3>Manicure & Pedicure</h3>
+                    <p>Relaxing treatments with premium products</p>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="services.html" class="btn btn-primary">➜ View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title fade-in">What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in-up">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Michelle is absolutely talented! My nails look better than I could have ever imagined. Highly recommend!"</p>
+                    <p class="testimonial-author">- Sarah M.</p>
+                </div>
+                <div class="testimonial-card fade-in-up">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Professional, friendly, and so creative with designs. I'm a regular client and won't go anywhere else."</p>
+                    <p class="testimonial-author">- Jessica L.</p>
+                </div>
+                <div class="testimonial-card fade-in-up">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"The attention to detail is incredible. Every appointment feels like a spa experience. Worth every penny!"</p>
+                    <p class="testimonial-author">- Emily R.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gift Cards Section -->
+    <section class="gift-cards">
+        <div class="container">
+            <h2 class="section-title fade-in">Gift Cards Available</h2>
+            <p class="section-subtitle">Perfect gift for nail lovers</p>
+            <a href="contact.html" class="btn btn-primary">Get a Gift Card</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>M Beauty Studio</h4>
+                    <p>Professional nail art & beauty services</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Designs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📞 <a href="tel:4087442647">408-744-2647</a></p>
+                    <p>📍 Cypress, TX 77433</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/nailsbymichlle.t/" target="_blank" rel="noopener noreferrer" title="Instagram" aria-label="Visit us on Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.threads.com/@nailsbymichlle.t" target="_blank" rel="noopener noreferrer" title="Threads" aria-label="Visit us on Threads">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 M Beauty Studio. All rights reserved. | By Appointment Only</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

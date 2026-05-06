@@ -1,0 +1,28 @@
+{
+  "name": "m-beauty-studio-website",
+  "version": "1.0.0",
+  "description": "Modern, responsive website for M Beauty Studio - Professional Nail Artist in Cypress, TX",
+  "main": "index.html",
+  "scripts": {
+    "serve": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": [
+    "nail art",
+    "beauty",
+    "salon",
+    "manicure",
+    "pedicure",
+    "cypress tx",
+    "responsive website"
+  ],
+  "author": "M Beauty Studio",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/m-beauty-studio"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
